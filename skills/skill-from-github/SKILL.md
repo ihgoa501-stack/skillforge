@@ -218,6 +218,25 @@ Ready to create the skill?
 5. **Quality over speed** — Take time to truly understand the project's design decisions
 6. **Multiple projects are better than one** — If time allows, cross-reference 2-3 projects for more robust skills
 
+## Self-Check
+
+Before delivering the generated skill, verify:
+
+**Understanding Quality:**
+- [ ] Did I read the project's README, core source, examples, AND tests?
+- [ ] Can I explain the core insight in one sentence?
+- [ ] Did I identify design trade-offs, not just features?
+- [ ] Are the techniques I extracted actionable (someone could DO them)?
+
+**Skill Quality:**
+- [ ] Does the skill encode knowledge, not just wrap a CLI command?
+- [ ] Would the skill work even without the original project installed?
+- [ ] Are there concrete do/don't examples?
+- [ ] Is the source project credited with attribution?
+
+**Final Test:**
+- [ ] Feed the skill a simple scenario — does it produce sensible output?
+
 ## What This Skill is NOT
 
 - NOT a package installer or CLI wrapper
