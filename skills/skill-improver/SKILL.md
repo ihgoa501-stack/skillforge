@@ -58,12 +58,12 @@ Map each issue to an improvement action:
 
 | Issue Type | Action |
 |-----------|--------|
-| Missing failure cases | Return to Phase 2.2 — find more failure examples |
-| Weak golden cases | Return to Phase 2.1 — find better practitioners |
-| Poor structure | Reorganize using output template from `output-templates.md` |
+| Missing failure cases | Search for more failure cases — find "common mistakes," "what not to do" examples |
+| Weak golden cases | Search for better practitioners — find people with demonstrated results |
+| Poor structure | Reorganize using output template from skillforge `references/output-templates.md` |
 | Abstract principles | Convert each to concrete do/don't pairs |
 | Missing self-check | Add verification section from template |
-| Anti-pattern detected | Apply the fix from `anti-patterns.md` |
+| Anti-pattern detected | Apply the fix from skillforge `references/anti-patterns.md` |
 | Low clarity score | Simplify sentences, add visual hierarchy |
 | Low coverage score | Add failure modes, edge cases, recovery |
 
@@ -146,7 +146,7 @@ After changes:
 
 ### Pattern B: The Failure Injection
 **Problem:** Skill only covers the happy path.
-**Fix:** Search specifically for failure cases (Phase 2.2). Add a "Common Mistakes" section with 5+ patterns, each with:
+**Fix:** Search specifically for failure cases. Add a "Common Mistakes" section with 5+ patterns, each with:
 - The mistake (with real example)
 - Why it happens
 - How to avoid it

@@ -148,7 +148,7 @@ Hand off to skill-creator with:
 Test the generated skill:
 1. Feed it a simple scenario — does the output make sense?
 2. Feed it the project's own examples — does it produce comparable results?
-3. Check for anti-patterns (from `anti-patterns.md`)
+3. Check for anti-patterns (from `skillforge/references/anti-patterns.md`)
 
 ## Example
 

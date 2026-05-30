@@ -96,7 +96,7 @@ cd ~/.claude/skills  # Claude Code
 # or your platform's skills path
 
 # Clone the skill
-git clone https://github.com/YOUR_USERNAME/skillforge.git
+git clone https://github.com/ihgoa501-stack/skillforge.git
 ```
 
 ### Option 2: Manual installation

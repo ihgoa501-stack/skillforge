@@ -1,11 +1,20 @@
 ---
 name: skillforge
 description: Create high-quality AI skills by learning from top practitioners. Finds golden examples, failure cases, and before/after contrasts before generating. Use when creating a new skill, building a skill for a specific task, or when asked to "help me create a skill for..."
+model: opus
 ---
 
 # SkillForge
 
 Create skills like a seasoned practitioner, not like an academic.
+
+## When to Use
+
+- When the user asks to create a new skill ("help me create a skill for...", "I want a skill that...")
+- When the user describes a task and wants it turned into a reusable skill
+- When an existing skill doesn't cover the user's need and a custom one is required
+- Runs **before** skill-creator to ground the skill in proven practitioner methodologies
+- NOT when: an existing skill already covers the need (use search-skill first)
 
 ## Core Philosophy
 
@@ -203,7 +212,7 @@ Transform distilled patterns into skill instructions.
    - Replace abstract principles ("be empathetic") with concrete actions ("when the user says X, respond with Y not Z")
 
 5. **Use the appropriate output template**
-   - Load `references/output-templates.md` for type-specific templates
+   - Load `skillforge/references/output-templates.md` for type-specific templates
    - Follow the template structure for consistent quality
 
 **Hand off to skill-creator:**
@@ -239,11 +248,11 @@ Load these on demand as needed:
 
 | Reference | When to Load |
 |-----------|-------------|
-| `references/methodology-registry.md` | When you need expert frameworks for a specific domain |
-| `references/skill-taxonomy.md` | When determining the skill type for template selection |
-| `references/quality-rubric.md` | When evaluating or self-checking a generated skill |
-| `references/output-templates.md` | When generating the final skill output |
-| `references/anti-patterns.md` | When you need to check for common skill-creation mistakes |
+| `skillforge/references/methodology-registry.md` | When you need expert frameworks for a specific domain |
+| `skillforge/references/skill-taxonomy.md` | When determining the skill type for template selection |
+| `skillforge/references/quality-rubric.md` | When evaluating or self-checking a generated skill |
+| `skillforge/references/output-templates.md` | When generating the final skill output |
+| `skillforge/references/anti-patterns.md` | When you need to check for common skill-creation mistakes |
 
 ---
 

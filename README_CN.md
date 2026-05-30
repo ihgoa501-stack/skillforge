@@ -96,7 +96,7 @@ cd ~/.claude/skills  # Claude Code
 # 或你所用平台的技能路径
 
 # 克隆技能仓库
-git clone https://github.com/ihgoa501-stack/masters-skill.git
+git clone https://github.com/ihgoa501-stack/skillforge.git
 ```
 
 ### 方式二：手动安装

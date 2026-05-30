@@ -64,14 +64,18 @@ Search by priority:
 5. If still nothing found, tell user honestly — suggest skillforge to create one
 ```
 
-Allowed search queries (use `site:` to restrict):
+Allowed search queries for GitHub sources:
 ```
 site:github.com/anthropics/skills {keywords}
 site:github.com/ComposioHQ/awesome-claude-skills {keywords}
 site:github.com/travisvn/awesome-claude-skills {keywords}
-site:skills.sh {keywords}
-site:clawhub.ai {keywords}
-site:skillsmp.com {keywords}
+```
+
+For non-GitHub sources, use WebFetch directly (see methods below):
+```
+skills.sh — WebFetch to scrape search results
+clawhub.ai — WebFetch clawhub.ai/skills?q={keywords}
+skillsmp.com — WebFetch with additional verification
 ```
 
 Search methods:
