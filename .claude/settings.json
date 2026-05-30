@@ -1,0 +1,24 @@
+{
+  "skills": [
+    "skillforge/SKILL.md",
+    "skills/search-skill/SKILL.md",
+    "skills/skill-from-github/SKILL.md",
+    "skills/master-research/SKILL.md",
+    "skills/skill-evaluator/SKILL.md",
+    "skills/skill-improver/SKILL.md"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
