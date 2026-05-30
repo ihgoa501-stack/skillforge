@@ -215,6 +215,38 @@ Transform distilled patterns into skill instructions.
    - Load `skillforge/references/output-templates.md` for type-specific templates
    - Follow the template structure for consistent quality
 
+6. **Always generate a CLAUDE.md alongside the skill** ⚠️
+   - Every generated skill gets a companion `CLAUDE.md` so it works as a standalone project
+   - The CLAUDE.md should be minimal but complete: what the skill does, when it triggers, its model, and any dependencies
+   - This makes the generated skill immediately usable when someone clones or copies its directory
+
+**CLAUDE.md template for generated skills:**
+```markdown
+# [Skill Name]
+
+[One-line description of what this skill does.]
+
+## When This Skill Activates
+
+- [Trigger condition 1]
+- [Trigger condition 2]
+- NOT when: [boundary]
+
+## How It Works
+
+[2-3 sentences on the methodology — what approach this skill takes]
+
+## Dependencies
+
+- [Any other skills or tools required]
+- Model: [opus/sonnet]
+
+## Quality
+
+Skill-evaluator score: [X]/25 — [rating]
+Generated with [SkillForge](https://github.com/ihgoa501-stack/skillforge)
+```
+
 **Hand off to skill-creator:**
 ```
 Use the Skill tool with: skill: "skill-creator:skill-creator"
@@ -227,6 +259,7 @@ Ensure the skill-creator receives:
 - The contrast table (effective vs ineffective)
 - The output template for that skill type
 - Quality rubric criteria
+- The CLAUDE.md template (filled in)
 
 ---
 
