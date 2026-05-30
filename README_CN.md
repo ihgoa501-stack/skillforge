@@ -5,7 +5,7 @@
 帮助你在生成任何新技能之前，从公认的大师那里发现并整合框架、原则和最佳实践。适用于 Claude Code、Codex 及其他 AI Agent 平台。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Skills: 5](https://img.shields.io/badge/skills-5-blue)
+![Skills: 6](https://img.shields.io/badge/skills-6-blue)
 ![Domains: 15+](https://img.shields.io/badge/domains-15+-green)
 
 ---
@@ -167,6 +167,22 @@ SkillForge (search-skill)：
   >        code-review（26k stars）
 ```
 
+### 深度调研大师方法论
+
+```
+你："研究一下 Chris Voss 是怎么谈判的"
+
+SkillForge (master-research)：
+  > [找到一手资料：Voss 的书、访谈、FBI 真实案例]
+  > [提取核心框架：战术共情]
+  > [识别 5 个具体技巧及实例]
+  > [找到人质谈判和商业谈判的真实案例]
+  > [标注局限性：假设对抗性场景]
+  >
+  > 输出结构化调研卡，包含可操作的技巧。
+  > 需要把它转化成谈判技能吗？
+```
+
 ### 从 GitHub 项目学习
 
 ```
@@ -184,8 +200,9 @@ SkillForge (skill-from-github)：
 | **skillforge** | `skillforge/SKILL.md` | 核心：基于专家方法论创建技能 |
 | **search-skill** | `skills/search-skill/SKILL.md` | 从可信来源查找已有技能 |
 | **skill-from-github** | `skills/skill-from-github/SKILL.md` | 从 GitHub 项目学习并提取知识 |
-| **skill-evaluator** | `skills/skill-evaluator/SKILL.md` | 用 5 维度评分标准评估技能质量（新） |
-| **skill-improver** | `skills/skill-improver/SKILL.md` | 基于反馈迭代改进技能（新） |
+| **master-research** | `skills/master-research/SKILL.md` | 深度调研特定大师的方法论（新） |
+| **skill-evaluator** | `skills/skill-evaluator/SKILL.md` | 用 5 维度评分标准评估技能质量 |
+| **skill-improver** | `skills/skill-improver/SKILL.md` | 基于反馈迭代改进技能 |
 
 ## 文件结构
 
@@ -202,8 +219,9 @@ skillforge/
 ├── skills/
 │   ├── search-skill/SKILL.md            # 增强版技能发现
 │   ├── skill-from-github/SKILL.md       # 增强版 GitHub 知识提取
-│   ├── skill-evaluator/SKILL.md         # 质量评估（新）
-│   └── skill-improver/SKILL.md          # 迭代优化（新）
+│   ├── master-research/SKILL.md         # 大师深度调研（新）
+│   ├── skill-evaluator/SKILL.md         # 质量评估
+│   └── skill-improver/SKILL.md          # 迭代优化
 ├── tools/
 │   ├── validate.sh                      # 技能验证脚本
 │   └── scaffold.sh                      # 新技能脚手架脚本
@@ -245,7 +263,7 @@ skillforge/
 |------|--------------------------|---------------------|
 | **语言** | 中文 SKILL.md | 英文为主，提供中文 README |
 | **技能类型** | 11 种（仅非技术类） | 15 种（新增自动化、集成、代码生成、分析） |
-| **包含技能数** | 3 个 | 5 个（新增评估器和改进器） |
+| **包含技能数** | 3 个 | 6 个（新增评估器、改进器、大师调研） |
 | **质量体系** | 简单检查清单 | 5 维度评分标准 + 20 个标志位 |
 | **输出方式** | 自由生成 | 15 种类型专属结构化模板 |
 | **反模式** | 无 | 15 个分类反模式目录 |

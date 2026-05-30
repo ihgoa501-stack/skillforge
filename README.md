@@ -5,7 +5,7 @@
 A skill that helps you discover and incorporate frameworks, principles, and best practices from recognized masters before generating any new skill. Works with Claude Code, Codex, and other AI agent platforms.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Skills: 5](https://img.shields.io/badge/skills-5-blue)
+![Skills: 6](https://img.shields.io/badge/skills-6-blue)
 ![Domains: 15+](https://img.shields.io/badge/domains-15+-green)
 
 ---
@@ -167,6 +167,22 @@ SkillForge (search-skill):
   >        code-review (26k stars)
 ```
 
+### Researching a master practitioner
+
+```
+You: "Research how Chris Voss approaches negotiation"
+
+SkillForge (master-research):
+  > [Finds primary sources: Voss's book, interviews, FBI cases]
+  > [Extracts core framework: Tactical Empathy]
+  > [Identifies 5 specific techniques with examples]
+  > [Finds real hostage + business negotiation cases]
+  > [Notes limitations: adversarial context assumption]
+  >
+  > Delivers structured research card with actionable techniques.
+  > Want to turn this into a negotiation skill?
+```
+
 ### Learning from GitHub projects
 
 ```
@@ -184,6 +200,7 @@ SkillForge (skill-from-github):
 | **skillforge** | `skillforge/SKILL.md` | Core: create skills from expert methodologies |
 | **search-skill** | `skills/search-skill/SKILL.md` | Find existing skills from trusted sources |
 | **skill-from-github** | `skills/skill-from-github/SKILL.md` | Learn from GitHub projects |
+| **master-research** | `skills/master-research/SKILL.md` | Deep-dive research into a specific master practitioner |
 | **skill-evaluator** | `skills/skill-evaluator/SKILL.md` | Evaluate skill quality on 5 dimensions |
 | **skill-improver** | `skills/skill-improver/SKILL.md` | Iteratively improve skills from feedback |
 
@@ -202,8 +219,9 @@ skillforge/
 ├── skills/
 │   ├── search-skill/SKILL.md            # Enhanced skill discovery
 │   ├── skill-from-github/SKILL.md       # Enhanced GitHub knowledge extraction
-│   ├── skill-evaluator/SKILL.md         # Quality evaluation (NEW)
-│   └── skill-improver/SKILL.md          # Iterative refinement (NEW)
+│   ├── master-research/SKILL.md         # Deep-dive master practitioner research (NEW)
+│   ├── skill-evaluator/SKILL.md         # Quality evaluation
+│   └── skill-improver/SKILL.md          # Iterative refinement
 ├── tools/
 │   ├── validate.sh                      # Skill validation script
 │   └── scaffold.sh                      # New skill scaffolding script
